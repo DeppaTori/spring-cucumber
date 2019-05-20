@@ -5,11 +5,11 @@ import java.util.ArrayList;
 public final class Bag {
     private final ArrayList<String> things;
 
-    Bag(){
+    public Bag(){
         things = new ArrayList<>();
     }
 
-    void add(final String something) {
+    public void add(final String something) {
         things.add(something);
     }
 
